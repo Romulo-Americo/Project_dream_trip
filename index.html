@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Viagem dos sonhos</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Pacotes</li>
+                    <li>Taxa</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
+            <h1>Venha realizar a viagem dos seus sonhos</h1>
+        </header>
+        <section>
+            <h2>Conheça nossos pacotes</h2>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore libero in, quisquam dolore eum repudiandae eveniet odio itaque quaerat minus nisi excepturi, consectetur iure molestiae nam quod inventore atque harum.
+                <hr>
+            </p>
+            <figure>
+                <img src="Fotos/gramado.jpg" alt="Fotografia de Gramago">
+                <figcaption>Gramado</figcaption>
+            </figure>
+            <figure>
+                <img src="Fotos/porto_seguro.jpg" alt="Fotografia de Porto Seguro">
+                <figcaption>Porto Seguro</figcaption>
+            </figure>
+            <figure>
+                <img src="Fotos/Rio_de_janeiro.jpg" alt="Fotografia do Rio de Janeiro">
+                <figcaption>Rio de Janeiro</figcaption>
+            </figure>   
+        </section>
+
+        <section>
+            <h2>Taxas e serviços</h2>
+            <p>Veja as nossas taxas para serviços</p>
+            <table border="line"><!--Colocar border no CSS-->
+                <caption>Desvrição dos serviços e respectivos valores</caption>
+                <thead><!--Semântico-->
+                    <tr>
+                        <th>Serviço</th><!--th centraliza e destaca a parte principal da tabela-->
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody><!--Semântico-->
+                    <tr>
+                        <td>Reserva de Hotel</td>
+                        <td>R$ 500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Compra de passagens</td>
+                        <td>R$100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Aluguel de carros</td>
+                        <td>R$50,00</td>
+                    </tr>
+                </tbody>
+               
+            </table>
+        </section>
+        
+        <section>
+            <h3>Orçamento</h3>
+            <form method="GET" action="">
+            <fieldset>
+                <legend>Dados</legend>
+                <input type="text" name="nome">
+                <label>E-mail</label>
+                <input type="email" name="E-mail">
+                <label>Data de ida</label>
+                <input type="date" name="dataIda"><br>
+                <label>Data de volta</label>
+                <input type="date" name="dataVolta">
+                <label>Quantidade de pessoas</label>
+                <input type="number" name="quantidadeDePessoas">
+                <label>Nome</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>serviços disponíveis para contratar</legend>
+                <label>
+                    <input type="checkbox"name="passagens" value="Passagem">Compra de passagens
+                </label>
+                <label>
+                    <input type="checkbox"name="hospedagem" value="hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <input type="checkbox"name="alugel_veiculos" value="veiculos">Reserva de veículos
+                </label>
+            </fieldset>
+                
+            <fieldset>
+                <legend>Forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="forma_pagamento" value="Crédito"> Crédito 
+                </label>
+                <label >
+                    <input type="radio" name="forma_pagamento" value="Débito">Débito 
+                </label>
+                <label>
+                    <input type="radio" name="forma_pagamento" value="Boleto">Boleto
+                </label>
+            </fieldset>
+
+            <label>Comentario</label><br>
+            <textarea name="Comentario" rows="5"></textarea><br>
+            <button>Salvar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por eu</p>
+        </footer>
+    </body>
+</html>
