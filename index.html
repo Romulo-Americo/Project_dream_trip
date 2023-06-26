@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Viagem dos sonhos</title>
+    </head>
+    <body>
+        <header class="container-fluid p-2 bg-warning text-center">
+            <nav class="navbar navbar-expand-lg bg-warning">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Viagem dos Sonhos</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Pacotes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Taxas</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contato
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                          </a>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Fotos/Manaus.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Conheça o maior rio do mundo</h5>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <img src="Fotos/Rio_de_janeiro2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Toque na mão de Cristo</h5>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="Fotos/São_Paulo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Venha conhecer o brasil</h5>
+                    </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header>
+
+        <section class="container-fluid bg-light text-center p-5">
+            <h2>Pacotes</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore libero in, quisquam dolore eum repudiandae eveniet odio itaque quaerat minus nisi excepturi, consectetur iure molestiae nam quod inventore atque harum.
+                <hr>
+            </p>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div >
+                  <div class="card h-100col bg-warning">
+                    <img src="Fotos/gramado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gramado</h5>
+                      <h3 class="card-subtitle text-muted">R$ 3.000,00</h3>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Em até 24x</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100 bg-warning">
+                    <img src="Fotos/porto_seguro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Porto Seguro</h5>
+                      <h3 class="card-subtitle text-muted">R$ 4.000,00</h3>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Em até 24x</small>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100 bg-warning">
+                    <img src="Fotos/Rio_de_janeiro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rio de Janeiro</h5>
+                      <h3 class="card-subtitle text-muted">R$5.000,00</h3>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Em até 24x</small>
+                    </div>
+                  </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="container-fluid bg-warning text-center p-2">
+            <h2>Taxas e serviços</h2>
+            <!--<p>Veja as nossas taxas para serviços</p>-->
+            <table class="table table-warning table-striped table-hover table-bordered border-warning"><!--Colocar border no CSS-->
+                <caption>Desvrição dos serviços e respectivos valores</caption>
+                <thead class="table-secondary"><!--Semântico-->
+                    <tr>
+                        <th>Serviço</th><!--th centraliza e destaca a parte principal da tabela-->
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider"><!--Semântico-->
+                    <tr>
+                        <td>Reserva de Hotel</td>
+                        <td>R$ 500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Compra de passagens</td>
+                        <td>R$100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Aluguel de carros</td>
+                        <td>R$50,00</td>
+                    </tr>
+                </tbody>
+               
+            </table>
+        </section>
+        
+        <section class="container-fluid bg-light p-2">
+            
+            <h3 class="text-center">Orçamento</h3>
+            <form method="GET" action="">
+            <fieldset>
+                <legend>Dados Pessoas</legend>
+                <div class="mb-3">
+                    <label class="form-label" form="nome">
+                        Nome:
+                    </label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" form="E-mail">
+                        E-mail:
+                    </label>
+                    <input type="email" class="form-control" name="E-mail" id="email">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" form="dataIda">
+                        Data de ida:
+                    </label>
+                    <input type="date" class="form-control" name="dataIda" id="dataIda">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" form="dataVolta">
+                        Data de retorno:
+                    </label>
+                    <input type="date" class="form-control" name="dataVolta" id="dataVolta">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" form="quantidadeDePessoas">
+                        Quantidade de passageiros:
+                    </label> 
+                    <input type="number" class="form-control" name="quantidadeDePessoas" id="quantidadeDePessoas">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Serviços disponíveis</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagem">
+                    <label class="form-check-label" for="compraPassagens">Compra de passagens</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hospedagem" value="hospedagem">
+                    <label class="form-check-label" for="hospedagem">Reserva de hospedagem</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="alugel_veiculos" value="aluguel_veiculos">
+                    <label class="form-check-label" for="alugel_veiculos">Reserva de veículo</label>
+                </div>
+            </fieldset>
+                
+            <!--<fieldset>
+                <legend>Forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="forma_pagamento" value="Crédito"> Crédito 
+                </label>
+                <label >
+                    <input type="radio" name="forma_pagamento" value="Débito">Débito 
+                </label>
+                <label>
+                    <input type="radio" name="forma_pagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <input type="radio" name="forma_pagamento" value="Pix">Pix
+                </label>
+            </fieldset>-->
+
+            <!--<fieldset>
+                <legend>Prazo de pagamento</legend>
+                <select name="prazo_pagamento">
+                    <option value="avista">À vista</option>
+                    <option value="3x">3x sem juros</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentario</label><br>
+            <textarea name="Comentario" rows="5"></textarea><br>-->
+            <button class="btn btn-secondary">Salvar</button>
+            </form>
+        </section>
+
+        <footer class="container-fluid bg-warning p-2 text-center">
+            <p>Desenvolvido por eu</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+       <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Produto adicionado ao carrinho
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+            <a href="checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</html>
